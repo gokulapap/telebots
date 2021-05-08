@@ -2,7 +2,7 @@ import telebot
 from os import system
 
 #add bot api key
-bot = telebot.TeleBot("1780974722:AAH27FxV7AWqkIFZ71A1UBiWzKnl8-cwGLQ")
+bot = telebot.TeleBot("xxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxx")
 
 @bot.message_handler(commands=['start'])
 def handle_command(message):
