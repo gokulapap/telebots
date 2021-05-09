@@ -3,7 +3,7 @@ from os import system
 from time import sleep
 
 #add bot api key
-bot = telebot.TeleBot('1868887559:AAHJspCOqgMZJzlCX8P7DTSzsfYFOPfojkU')
+bot = telebot.TeleBot('xxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxx')
 global imgurl
 
 @bot.message_handler(commands=['start'])
