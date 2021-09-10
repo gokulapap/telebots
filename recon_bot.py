@@ -1,7 +1,7 @@
 import telebot
 from os import system
 
-#add bot api key
+# add bot api key
 bot = telebot.TeleBot("xxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxx")
 
 @bot.message_handler(commands=['start'])
