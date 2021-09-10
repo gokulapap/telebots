@@ -1,7 +1,7 @@
 import telebot
 from os import system
 
-bot = telebot.TeleBot('1886983440:AAHsrhNjak8NaAEGVxNMxKmbGPGzRN6BJsU')
+bot = telebot.TeleBot('xxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxx')
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
